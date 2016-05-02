@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/preference_category_sorting">
+
+        <SwitchPreference
+            android:defaultValue="@string/sortmode_default"
+            android:key="@string/sortmode_key_popular"
+            android:summaryOn="@string/sortmode_summary_popular"
+            android:summaryOff="@string/sortmode_summary_toprated">
+        </SwitchPreference>
+    </PreferenceCategory>
+</PreferenceScreen>
