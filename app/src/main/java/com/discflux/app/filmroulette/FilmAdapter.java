@@ -49,7 +49,7 @@ public class FilmAdapter extends ArrayAdapter<FilmInfo> {
         //holder.textView.setText(film.getTitle());
         if (!film.getPosterUrl().equals("")) {
             // debug picasso image loading indicators
-            //Picasso.with(mContext).setIndicatorsEnabled(true);
+            //Picasso.with(mContext).setIndicatorsEnabled(false);
             Picasso.with(mContext)
                     .load(film.getPosterUrl())
                     .into(holder.imageView);

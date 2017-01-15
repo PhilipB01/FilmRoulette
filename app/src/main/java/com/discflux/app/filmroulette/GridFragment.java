@@ -116,7 +116,7 @@ public class GridFragment extends Fragment {
         protected List<FilmInfo> doInBackground(String... params) {
 
             // An API_KEY for The Movie DB is required to use this app which requires a user account
-            final String API_KEY = "";
+            final String API_KEY = "ee896fff3f3c5946afe4151b4a878b37";
 
             final String MOVIE_BASE_URL = "https://api.themoviedb.org/3/movie";
             final String KEY_PARAM = "api_key";
